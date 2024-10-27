@@ -1,0 +1,15 @@
+.menu {
+  .menu__title {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 10px auto;
+    font-size: 135px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  hr {
+    margin: 5px 0;
+  }
+}
