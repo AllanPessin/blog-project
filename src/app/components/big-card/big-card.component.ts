@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './big-card.component.css'
 })
 export class BigCardComponent {
-
+  @Input() cover: string = ''
+  @Input() title: string = ''
+  @Input() description: string = ''
 }
