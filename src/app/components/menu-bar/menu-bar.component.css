@@ -1,0 +1,9 @@
+.menu-bar {
+  margin-top: 15px;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+}
